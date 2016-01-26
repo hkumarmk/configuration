@@ -101,7 +101,7 @@ apt-get install -y software-properties-common python-software-properties
 add-apt-repository -y ppa:git-core/ppa
 
 # Add python PPA
-apt-key adv --keyserver "${EDX_PPA_KEY_SERVER}" --recv-keys "${EDX_PPA_KEY_ID}"
+#apt-key adv --keyserver "${EDX_PPA_KEY_SERVER}" --recv-keys "${EDX_PPA_KEY_ID}"
 add-apt-repository -y "${EDX_PPA}"
 
 # Install python 2.7 latest, git and other common requirements
